@@ -29,9 +29,9 @@ class UpdateNotifier {
                 instance.logger.info('Sending notification');
 
                 notifier.notify({
-                        title: 'Virtual Trucker Rich Presence',
+                        title: 'RLC Tracker',
                         message: `Update Available: v${response.tag_name} ⚠`,
-                        icon: (__dirname, 'assets/vtrpc.ico'),
+                        icon: (__dirname, 'assets/rlc.ico'),
                         sound: 'Notification.Reminder',
                         wait: true,
                         open: config.latestReleasePage,

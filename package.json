@@ -22,7 +22,7 @@
 	"devDependencies": {},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/VirtualTruckerRPC/Virtual-Trucker-Rich-Presence.git"
+		"url": "https://github.com/KasperE1/Virtual-Trucker-Rich-Presence.git"
 	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",

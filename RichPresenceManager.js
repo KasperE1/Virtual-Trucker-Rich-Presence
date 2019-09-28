@@ -184,7 +184,7 @@ class RichPresenceManager {
                 } else {
                     activity.details += `🚛 Freeroaming | ${data.telemetry.truck.make} ${data.telemetry.truck.model}`;
                 }
-                activity.largeImageText = `VT-RPC v2.7.5`;
+                activity.largeImageText = `Red Line Cargo`;
             }
 
             if (data.telemetry.truck.make != false) {

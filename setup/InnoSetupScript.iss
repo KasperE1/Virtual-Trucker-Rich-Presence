@@ -1,11 +1,11 @@
 #include <idp.iss>
 
-#define MyAppName "Virtual Trucker Rich Presence"
+#define MyAppName "RLC Tracker"
 #define MyAppVersion "2.7.7"
 #define MyAppPublisher "Virtual Trucker Rich Presence"
-#define MyAppURL "https://github.com/VirtualTruckerRPC/Virtual-Trucker-Rich-Presence/"
-#define MyAppExeName "VirtualTruckerRichPresence.exe"
-#define MyServiceName "VirtualTruckerRichPresence"
+#define MyAppURL "https://github.com/KasperE1/Virtual-Trucker-Rich-Presence"
+#define MyAppExeName "RLCTracker.exe"
+#define MyServiceName "RLC Tracker Installer"
 #define RunHiddenVbs "RunHidden.vbs"
 #define RebootVTRPC "RebootVTRPC.bat"
 
@@ -22,8 +22,8 @@ AppMutex={#MyAppExeName}
 DefaultDirName={pf64}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 AllowNoIcons=no                                                                                                           
-OutputBaseFilename=VirtualTruckerRichPresenceSetup
-SetupIconFile=..\assets\vtrpc.ico
+OutputBaseFilename=RLCTracker
+SetupIconFile=..\assets\rlc.ico
 Compression=lzma2/ultra64
 SolidCompression=yes
 PrivilegesRequired=admin
@@ -38,8 +38,8 @@ ArchitecturesAllowed=x64 ia64
 InternalCompressLevel=ultra64
 CompressionThreads=4
 WizardImageStretch=False
-WizardImageFile=C:\Users\supac\Documents\Virtual-Trucker-Rich-Presence\assets\vtrpc-banner.bmp
-WizardSmallImageFile=C:\Users\supac\Documents\Virtual-Trucker-Rich-Presence\assets\vtrpc.bmp
+WizardImageFile=C:\Users\Kasper\Documents\GitHub\Virtual-Trucker-Rich-Presence\assets\vtrpc-banner.bmp
+WizardSmallImageFile=C:\Users\Kasper\Documents\GitHub\Virtual-Trucker-Rich-Presence\assets\vtrpc.bmp
 DisableWelcomePage=False
 
 [Types]

@@ -4,8 +4,8 @@ const packageInfo = require('./package.json');
 
 module.exports = {
     applications: {
-        ets2: '432559364772200479',
-        ats: '454028920107565107',
+        ets2: '627395273865297920',
+        ats: '627395273865297920',
     },
     version: `Virtual Trucker Rich Presence ${packageInfo.version}`,
     kmToMilesConversion: 0.62,
@@ -24,7 +24,7 @@ module.exports = {
         brandPrefix: 'brand_',
         brandGenericKey: 'brand_generic',
         ets2LargeImagePrefix: 'ets2rpc_',
-        atsLargeImagePrefix: 'atsrpc_',
+        atsLargeImagePrefix: 'ets2rpc_',
         largeImageKeys: {
             idle: 'idle',
             day: 'day',
